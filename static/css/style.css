@@ -1,0 +1,407 @@
+body{
+  padding: px;
+}
+.jumbotron {
+    margin-bottom: 0;
+    background-image: url(../img/newlol.png);
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: 3rem;
+      padding-bottom: 66px;
+      padding-left: 130px;
+    }
+  }
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron-heading {
+    font-weight: 300;
+  }
+  
+  .jumbotron .container {
+    max-width: 70rem;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Montserrat;
+    line-height: 60.95px;
+  }
+  
+  footer {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+  strong{
+      color: #FF8D07;
+      font-family: Montserrat;
+      font-size: 63px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 77px;
+      letter-spacing: 0em;
+      text-align: left;
+  }
+  button{
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    width: 238px;
+    height: 64px;
+    border: none;
+    background-color: #FF8D07;
+    color: #fff;
+    
+  }
+  .head-img{
+      position: relative;
+      width: 100%;
+      right:30px;
+      top: 30px;
+  }
+  h1{
+    font-family: Montserrat;
+    font-size: 142px;
+    font-weight: 800;
+    line-height: 173px;
+    letter-spacing: 0em;
+    color: white;
+  }
+  .roow {
+    display: flex;
+    
+    justify-content: center;
+    
+  }
+  .vl{
+    border-left: 3px solid white;
+    height: 100px;
+    padding-left: 30px;
+    margin: 30px;
+  }
+  h3{
+    color: white;
+    font-family: Montserrat;
+    padding: 0;
+  }
+  h4{
+    color: white;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    margin-bottom: 0px;
+
+  }
+  h2{
+    font-family: Montserrat;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+    margin-top: -70px;
+    position: relative;
+    left: 400px;
+    background-color: #fff;
+
+  }
+  .mine{
+    background-color: white;
+    width: 200px;
+    
+
+  }
+  .hove:hover{
+    font-size: 25px;
+    box-shadow: black 25 25;
+  }
+  .hove:after{
+    font-size: 25px;
+    box-shadow: black 25 25;
+    border: 0px;
+    border-style: none;
+     
+  }
+  .longText p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+  .form-name{
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 0;
+    background: rgba(196, 196, 196, 0.28);
+  }
+  input {
+    text-align: start;
+  }
+  
+  ::-webkit-input-placeholder {
+    text-align:left;
+  }
+  
+  :-moz-placeholder {
+    text-align:top;
+  }
+  #left{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 500px;
+  }
+  #lefti{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 300px;
+  }
+  .vr{
+    background-color: #e7ba85;
+    width: 167px;
+    height: 106px;
+    margin-bottom: 30px;
+  }
+  .vr h4{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+  .sid-img{
+    left: 32%;
+    bottom: 8px;
+    justify-content: center;
+  }
+  .sub{
+    height: 463px;
+    background-color: #FF8D07;
+    width: 238px;
+    padding: 35px;
+    
+  }
+  .form-1{
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    background-color: transparent;
+    border-color: rgb(134, 132, 132);
+    height: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  .side-head h1{
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .side-head h4{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    bottom: 55px;
+  }
+  .side-head{
+    padding-left: 50px;
+    height: 211px; 
+    background-color: #FF8D07; 
+    margin-bottom: 20px;
+  }
+  .chart{
+    width: 451px;
+    height: 48px;
+    left: 415px;
+    background: #C4C4C4;
+    padding: 0px 30px 0px 30px;
+  }
+  .bar{
+    height: 9px;
+    width: 321px;
+    border-radius: 4.5px;
+    background-color: #fff;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    left: 30px;
+
+  }
+  .side-head-pass{
+    padding-left: 50px;
+    padding-top: 40px;
+    height: 111px; 
+    background-color: #FF8D07; 
+    margin-bottom: 20px;
+  }
+  .img12{
+    position: relative;
+    left: 45px;
+  }
+  h6{
+    position: relative; 
+    left: 30px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 10px;
+    font-size: 18px;
+  }
+  .subm{
+  background-color: #FF8D07; 
+    border: none;
+    width: 300px;
+  }
+  .logout-btn{
+    background-color:transparent; 
+    border: 2px solid #FF8D07;
+    box-sizing: border-box;
+    width: 238px;
+    height: 64px;
+    color: black;
+
+  }
+  .contain{
+    height: 350px;
+    width: 600px;
+    text-align: center;
+  }
+  .contain .wrapper{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .containn{
+    padding: 0px 0px 50px 20px;
+
+  }
+  .logout-side button{
+    background-color: white;
+    color: black;
+    border-color: #FF8D07;
+    border-style: solid;
+    border-width: 5px;
+  }
+  .verify h5{
+    font-size: 70px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 90.21px;
+  }
+
+  .proceed-btn button{
+    width: 400px;
+    height: 92px;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 700;
+    font-family: Montserrat;
+    margin-bottom: 30px;
+  }
+  .iconn .icon{
+    font-size: 40px;
+    color: #FF8D07;
+  }
+  .progres{
+    height: 58px;
+    background-color: #C4C4C4;
+    padding: 25px 10px 20px 50px;
+    
+  }
+  .chart{
+    height: 8px;
+    border-radius: 10px;
+    background-color: white;
+    width: 400px;
+
+  }
+  .wrapper .icon{
+    font-size: 100px;
+  }
+  .progres .icon{
+    font-size: 40px;
+  }
+  .wrapper .text{
+    font-size: 20px;
+  }
+  li{
+    font-weight: 600;
+  }
+  #custom-btn{
+    background-color:  #FF8D07;
+    width: 180px;
+    height: 64px;
+    bottom: 30px;
+    position: relative;
+  }
+  @media screen and (max-width: 601px) {
+    p.big-text{
+      font-size: 30px;
+      line-height: 40px;
+    }
+    strong{
+      font-size: 50px;
+    }
+    h4{
+      font-size: 20px;
+    }
+    .subm{
+      width: 200px;
+    }
+    .side-head h1{
+      font-size: 30px;
+      padding: 0px;
+      margin: 0px;
+    }
+    .side-head{
+      padding-left: 20px;
+      height: 111px; 
+      background-color: #FF8D07; 
+      margin-bottom: 20px;
+    }
+    .vl{
+      height: 90px;
+      margin: 20px;
+    }
+    .side-head h4{
+      position: relative;
+      bottom: 0px;
+    }
+    h1{
+      font-size: 100px;
+    }
+    h2{
+      font-size: 30px;
+      position: relative;
+      left: 20px;
+    }
+    footer p{
+      line-height: 25px;
+      font-size: 21px;
+    }
+  }
+ 
