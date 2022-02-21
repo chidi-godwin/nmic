@@ -1,5 +1,6 @@
 from typing import Any, Dict
 from django import forms
+from django.contrib.auth.hashers import make_password
 from django.forms import ModelForm, ValidationError
 from .models import User
 from django.utils.translation import gettext_lazy as _
@@ -22,4 +23,5 @@ class RegistrationForm(ModelForm):
                 _('password doesn\'t match'),
                 code='invalid'
             )
+        cleaned_data['password'] = make_password(cleaned_data.get('password'))
         return cleaned_data

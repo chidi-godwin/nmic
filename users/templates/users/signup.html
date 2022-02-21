@@ -1,0 +1,79 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <img src="{% static 'img/obanijesu-logo.png' %}" alt="" id="lefti" class="img-fluid">
+    <div class="navbar" style="margin-bottom: 70px;">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <strong>NIMC</strong>
+          </a>
+          
+        </div>
+      </div>
+    <main>
+        <div class="container" >
+            <div class="row">
+                <div class="col-md-4 d-none d-lg-block .d-xl-none">
+                    <div class="sub">
+                        <div class="col-md-12 vr " style="padding: 20px;" >
+                          <img src="{% static 'img/vector2.png' %}" alt="" width="25%" class="img12">
+                            <h6 >BIODATA</h6> 
+                        </div>
+                        <div class="col-md-12 vr " style="padding: 20px;" >
+                          <img src="{% static 'img/vector1.png' %}" alt="" width="25%" class="img12">
+                            <h6 style="position: relative; left: 20px;">PASSPORT</h6> 
+                        </div>
+                        <div class="col-md-12 vr " style="padding: 20px;" >
+                          <img src="{% static 'img/vector3.png' %}" alt="" width="25%" class="img12">
+                            <h6 style="position: relative; left: 15px;">BIOMETRICS</h6> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="col-md-12 side-head" style="height: 211px; background-color: #FF8D07; margin-bottom: 20px;">
+                        <h1>Welcome back!</h1>
+                        <h4>Login to your account</h4>
+                    </div>
+                    <div class="col-md-12" style="height: 713px; background-color: rgb(245, 243, 243); padding: 50px 70px 20px 70px;">
+                        <form class="text-center" method="post" action="">
+                            {% csrf_token %}
+                            <div class="form-group ">
+                              <label for="exampleInputEmail1" style="font-weight: bold; padding-bottom: 50px;" >Full Name</label>
+                              <input type="text" class="form-control form-1" id="exampleInputEmail1" name="full_name" aria-describedby="emailHelp" required>
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1" style="font-weight: bold; padding-bottom: 50px;">Email Address</label>
+                              <input type="email" class="form-control form-1" id="exampleInputPassword1" name="email" required>
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1" style="font-weight: bold; padding-bottom: 50px;">Password</label>
+                              <input type="password" class="form-control form-1" id="exampleInputPassword1" name="password" required>
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1" style="font-weight: bold; padding-bottom: 50px;">confirm password</label>
+                              <input type="password" class="form-control form-1" id="exampleInputPassword1" name="confirm_password" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary subm" >Submit</button>
+                            <p>Forgotten password? <span><a>Recover</a></span></p>
+                            <p style="font-weight: bold;">or create with</p>
+                          </form>  
+                    </div>
+                    <div class="col-md-12" style="padding:10px 0px 0px 0px;"><p style="font-weight: bold; color: grey;">Already have an account? <span style="color: black; ">Login </span></p></div>
+                </div>
+            </div>
+        </div>
+    </main>  
+
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+</body>
+</html>
